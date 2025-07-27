@@ -1,0 +1,161 @@
+{
+    "product_discounted_price": {
+      "_fns": [
+        {
+          "_fn": "xpath",
+          "_args": [
+            "//div[@data-csa-c-content-id=\"apex_desktop\"]/div/div/div[1]/div/div[4]/div[1]/span[3]/span[2]",
+            "//div[@class=\"celwidget\"]/div/div/div[1]/div/div[4]/div[1]/span[3]/span[2]",
+            "//div[@data-feature-name=\"apex_desktop\"]/div/div/div[1]/div/div[4]/div[1]/span[3]/span[2]",
+            "//div[@data-csa-c-slot-id=\"apex_dp_center_column\"]/div/div[1]/div/div[4]/div[1]/span[3]/span[2]",
+            "//div[@class=\"offersConsistencyEnabled\"]/div[1]/div/div[4]/div[1]/span[3]/span[2]",
+            "//div[@data-csa-c-content-id=\"apex\"]/div/div[1]/div/div[4]/div[1]/span[3]/span[2]",
+            "//div[@data-csa-c-type=\"widget\"]/div/div[1]/div/div[4]/div[1]/span[3]/span[2]",
+            "//div[@id=\"apex_desktop\"]/div/div/div[1]/div/div[4]/div[1]/span[3]/span[2]",
+            "//div[@data-csa-c-type=\"widget\"]/div/div/div[1]/div/div[4]/div[1]/span[3]/span[2]",
+            "//div[@id=\"apex_desktop_newAccordionRow\"]/div/div[4]/div[1]/span[3]/span[2]",
+            "/html/body/div[1]/div/div/div[4]/div[4]/div[14]/div/div/div[1]/div/div[4]/div[1]/span[3]/span[2]"
+          ]
+        },
+        {
+          "_fn": "xpath",
+          "_args": ["normalize-space(.)"]
+        },
+        {
+          "_fn": "join",
+          "_args": " "
+        }
+      ]
+    },
+    "product_original_price": {
+      "_fns": [
+        {
+          "_fn": "xpath",
+          "_args": [
+            "//div[@id=\"apex_desktop_newAccordionRow\"]/div/div[4]/div[2]/span/span[1]/span[2]/span/span[2]",
+            "//div[@class=\"celwidget\"]/div/div/div[1]/div/div[4]/div[2]/span/span[1]/span[2]/span/span[2]",
+            "//div[@class=\"offersConsistencyEnabled\"]/div[1]/div/div[4]/div[2]/span/span[1]/span[2]/span/span[2]",
+            "//div[@data-csa-c-slot-id=\"apex_dp_center_column\"]/div/div[1]/div/div[4]/div[2]/span/span[1]/span[2]/span/span[2]",
+            "//div[@data-csa-c-content-id=\"apex\"]/div/div[1]/div/div[4]/div[2]/span/span[1]/span[2]/span/span[2]",
+            "//div[@data-csa-c-type=\"widget\"]/div/div/div[1]/div/div[4]/div[2]/span/span[1]/span[2]/span/span[2]",
+            "//div[@id=\"apex_desktop\"]/div/div/div[1]/div/div[4]/div[2]/span/span[1]/span[2]/span/span[2]",
+            "//div[@data-csa-c-content-id=\"apex_desktop\"]/div/div/div[1]/div/div[4]/div[2]/span/span[1]/span[2]/span/span[2]",
+            "//div[@data-csa-c-type=\"widget\"]/div/div[1]/div/div[4]/div[2]/span/span[1]/span[2]/span/span[2]",
+            "//div[@data-feature-name=\"apex_desktop\"]/div/div/div[1]/div/div[4]/div[2]/span/span[1]/span[2]/span/span[2]",
+            "/html/body/div[1]/div/div/div[4]/div[4]/div[14]/div/div/div[1]/div/div[4]/div[2]/span/span[1]/span[2]/span/span[2]"
+          ]
+        },
+        {
+          "_fn": "xpath",
+          "_args": ["normalize-space(.)"]
+        },
+        {
+          "_fn": "join",
+          "_args": " "
+        }
+      ]
+    },
+    "discount_percentage": {
+      "_fns": [
+        {
+          "_fn": "xpath",
+          "_args": [
+            "//div[@data-feature-name=\"apex_desktop\"]/div/div/div[1]/div/div[4]/div[1]/span[2]",
+            "//div[@data-csa-c-slot-id=\"apex_dp_center_column\"]/div/div[1]/div/div[4]/div[1]/span[2]",
+            "//div[@class=\"offersConsistencyEnabled\"]/div[1]/div/div[4]/div[1]/span[2]",
+            "//div[@id=\"apex_desktop_newAccordionRow\"]/div/div[4]/div[1]/span[2]",
+            "//div[@data-csa-c-content-id=\"apex_desktop\"]/div/div/div[1]/div/div[4]/div[1]/span[2]",
+            "//div[@class=\"celwidget\"]/div/div/div[1]/div/div[4]/div[1]/span[2]",
+            "//div[@data-csa-c-slot-id=\"apex_desktop\"]/div/div/div[1]/div/div[4]/div[1]/span[2]",
+            "//div[@id=\"apex_desktop\"]/div/div/div[1]/div/div[4]/div[1]/span[2]",
+            "//div[@data-csa-c-type=\"widget\"]/div/div[1]/div/div[4]/div[1]/span[2]",
+            "//div[@data-csa-c-content-id=\"apex\"]/div/div[1]/div/div[4]/div[1]/span[2]",
+            "/html/body/div[1]/div/div/div[4]/div[4]/div[14]/div/div/div[1]/div/div[4]/div[1]/span[2]"
+          ]
+        },
+        {
+          "_fn": "xpath",
+          "_args": ["normalize-space(.)"]
+        },
+        {
+          "_fn": "join",
+          "_args": " "
+        }
+      ]
+    },
+    "product_title": {
+      "_fns": [
+        {
+          "_fn": "xpath",
+          "_args": [
+            "//div[@class=\"celwidget\"]/div/h1/span",
+            "//div[@data-csa-c-type=\"widget\"]/div/h1/span",
+            "//div[@class=\"a-section a-spacing-none\"]/h1/span",
+            "//span[@id=\"productTitle\"]",
+            "//div[@id=\"title_feature_div\"]/div/h1/span",
+            "//div[@id=\"titleSection\"]/h1/span",
+            "//span[@class=\"a-size-large product-title-word-break\"]",
+            "//div[@data-feature-name=\"title\"]/div/h1/span",
+            "//h1[@id=\"title\"]/span",
+            "//h1[@class=\"a-size-large a-spacing-none\"]/span",
+            "/html/body/div[1]/div/div/div[4]/div[4]/div[1]/div/h1/span"
+          ]
+        },
+        {
+          "_fn": "xpath",
+          "_args": ["normalize-space(.)"]
+        },
+        {
+          "_fn": "join",
+          "_args": " "
+        }
+      ]
+    },
+    "description": {
+      "_fns": [
+        {
+          "_fn": "xpath_one",
+          "_args": ["//div[@id=\"productDescription\"]/p/span/text()"]
+        },
+        {
+          "_fn": "element_text"
+        }
+      ]
+    },
+    "positive_rating_percentage": {
+    "_fns": [
+      {
+        "_fn": "xpath_one",
+        "_args": [
+          "//span[@class=\"a-declarative\"]/span/span[1]/a/i[1]/span/text()",
+          "//span[@id=\"acrPopover\"]/span[1]/a/i[1]/span/text()",
+          "//a[@role=\"button\"]/i[1]/span/text()",
+          "//span[@class=\"reviewCountTextLinkedHistogram noUnderline\"]/span[1]/a/i[1]/span/text()",
+          "//a[@class=\"a-popover-trigger a-declarative\"]/i[1]/span/text()",
+          "//span[@data-csa-c-func-deps=\"aui-da-a-popover\"]/a/i[1]/span/text()",
+          "//span[@class=\"a-declarative\"]/a/i[1]/span/text()",
+          "//span[@data-action=\"a-popover\"]/a/i[1]/span/text()",
+          "//i[@class=\"a-icon a-icon-star a-star-4-5 cm-cr-review-stars-spacing-big\"]/span/text()",
+          "//span[@data-csa-c-type=\"widget\"]/a/i[1]/span/text()",
+          "/html/body/div[1]/div/div/div[4]/div[4]/div[3]/div/span[1]/span/span[1]/a/i[1]/span/text()"
+        ]
+      },
+      {
+        "_fn": "amount_from_string"
+      }
+    ]
+  },
+    "product_image_url": {
+      "_fns": [
+        {
+          "_fn": "xpath_one",
+          "_args": ["//img[@id='landingImage']/@src"]
+        },
+        {
+          "_fn": "element_text"
+        }
+      ]
+    }
+  
+  
+  }
